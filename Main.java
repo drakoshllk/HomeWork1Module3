@@ -1,29 +1,28 @@
 abstract class Metal{
     private int endurance;
+    
     Metal(int endurance){
         this.endurance = endurance;
     }
+    
     int getEndurance(){
         return this.endurance;
     }
 }
 
 class Steel extends Metal{
-
     Steel(){
         super(50);
     }
 }
 
 class Copper extends Metal{
-
     Copper(){
         super(-30);
     }
 }
 
 class Iron extends Metal{
-
     Iron() {
         super(20);
     }
