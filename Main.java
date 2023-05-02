@@ -1,5 +1,3 @@
-import java.awt.desktop.SystemEventListener;
-
 abstract class Metal{
     private int endurance;
     Metal(int endurance){
